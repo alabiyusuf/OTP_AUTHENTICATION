@@ -1,0 +1,31 @@
+{
+  "name": "otp-authentication",
+  "version": "1.0.0",
+  "description": "An app that allows user to register, login, forget password and reet password as well.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "keywords": [
+    "\"auth\"",
+    "\"login\"",
+    "\"register\"",
+    "\"forget-password\"",
+    "\"password-reset\""
+  ],
+  "author": "Alabi Yusuf",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "crypto-js": "^4.2.0",
+    "cryptojs": "^2.5.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.1"
+  }
+}
